@@ -1,38 +1,23 @@
 # 🩺 AI-Enabled Symptom Based Disease Predictor
 
-# 📌 Project Overview
+## 📌 Project Overview
+
 The AI-Enabled Symptom Based Disease Predictor is an end-to-end Machine Learning web application that predicts possible diseases based on user-selected symptoms.
-
 The project combines:
-
-Machine Learning (Naive Bayes)
-
-Interactive Streamlit UI
-
-AI-powered health explanations
-
-Chatbot-style doctor consultation
-
-PDF report generation
-
+- Machine Learning (**Naive Bayes**)
+- Interactive **Streamlit** UI
+- AI-powered health explanations
+- Chatbot-style doctor consultation
+- PDF report generation
 This project demonstrates practical application of ML in healthcare analytics with real-world deployment features.
-
-🚀 Key Features
-
-✅ Symptom-based disease prediction using Naive Bayes
-
-🖱️ Interactive symptom selection using icon-based cards
-
-🤖 AI-generated disease explanation (symptoms, causes, prevention)
-
-💬 Chat with AI Doctor for follow-up questions
-
-📄 Download consultation summary as PDF
-
-🎨 Modern, responsive Streamlit UI
-
-⚠️ Clear medical disclaimer for ethical use
-
+---
+## 🚀 Features
+- Predicts diseases based on selected symptoms
+- Interactive and user-friendly web interface using **Streamlit**
+- Efficient and fast predictions using **Naive Bayes**
+- Data visualization for insights and analysis
+- Modular and well-structured codebase
+---
 🛠️ Tech Stack & Libraries
 📊 Data Processing
 
@@ -59,37 +44,36 @@ Joblib – model serialization
 OpenAI API – AI doctor explanation & chat
 
 FPDF – PDF report generation
-
-📂 Project Structure
+---
+<pre>
 ├── Training.csv              # Dataset
 ├── disease_model.pkl         # Trained ML model
 ├── app.py                    # Streamlit application
 ├── disease_model.ipynb       # Model training notebook
 ├── requirements.txt
 └── README.md
+</pre>
+---
+## ⚙️ How the System Works
+- User selects symptoms via visual cards
+- Symptoms are encoded into a binary feature vector
+- Naive Bayes model predicts the disease
+- AI explains the predicted condition in simple language
+- User can chat with AI doctor for guidance
+- Consultation can be downloaded as a PDF
 
-⚙️ How the System Works
+## 🧠 Machine Learning Model
+- **Algorithm:** Naive Bayes
 
-User selects symptoms via visual cards
+### Why Naive Bayes?
+- Works well with categorical and binary data
+- Efficient for medical symptom datasets
+- Fast, simple, and interpretable
+--- 
+## 🎯 Learning Outcomes
+- 🧠 End-to-end Machine Learning project implementation  
+- 🧹 Data preprocessing and feature handling  
+- 🤖 Model training and evaluation  
+- 📊 Data visualization techniques  
+- 🌐 Real-world ML deployment using **Streamlit**  
 
-Symptoms are encoded into binary feature vector
-
-Naive Bayes model predicts the disease
-
-AI explains the predicted condition in simple language
-
-User can chat with AI doctor for guidance
-
-Consultation can be downloaded as a PDF
-
-🧠 Machine Learning Model
-
-Algorithm: Naive Bayes
-
-Why Naive Bayes?
-
-Works well with categorical & binary data
-
-Efficient for medical symptom datasets
-
-Fast, simple, and interpretable
