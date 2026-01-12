@@ -43,7 +43,6 @@ Joblib – model serialization
 
 OpenAI API – AI doctor explanation & chat
 FPDF – PDF report generation
----
 <pre>
 ├── Training.csv              # Dataset
 ├── disease_model.pkl         # Trained ML model
@@ -75,4 +74,6 @@ FPDF – PDF report generation
 - 🤖 Model training and evaluation  
 - 📊 Data visualization techniques  
 - 🌐 Real-world ML deployment using **Streamlit**  
-
+--- 
+🚀 About Me
+👋 Hi, I’m Anmol Singh. I’m a Data Engineering & Analytics enthusiast with strong hands-on experience in SQL, Data Warehousing, ETL pipelines, and analytical reporting. I build scalable data solutions that transform raw data into business-ready insights.
