@@ -1,6 +1,6 @@
-🩺 AI-Enabled Symptom Based Disease Predictor
-📌 Project Overview
+# 🩺 AI-Enabled Symptom Based Disease Predictor
 
+# 📌 Project Overview
 The AI-Enabled Symptom Based Disease Predictor is an end-to-end Machine Learning web application that predicts possible diseases based on user-selected symptoms.
 
 The project combines:
