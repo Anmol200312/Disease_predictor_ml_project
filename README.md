@@ -42,7 +42,6 @@ Joblib – model serialization
 🧠 AI & Utilities
 
 OpenAI API – AI doctor explanation & chat
-
 FPDF – PDF report generation
 ---
 <pre>
