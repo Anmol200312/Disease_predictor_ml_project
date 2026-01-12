@@ -1,1 +1,95 @@
-# Disease_predictor_ml_project
+🩺 AI-Enabled Symptom Based Disease Predictor
+📌 Project Overview
+
+The AI-Enabled Symptom Based Disease Predictor is an end-to-end Machine Learning web application that predicts possible diseases based on user-selected symptoms.
+
+The project combines:
+
+Machine Learning (Naive Bayes)
+
+Interactive Streamlit UI
+
+AI-powered health explanations
+
+Chatbot-style doctor consultation
+
+PDF report generation
+
+This project demonstrates practical application of ML in healthcare analytics with real-world deployment features.
+
+🚀 Key Features
+
+✅ Symptom-based disease prediction using Naive Bayes
+
+🖱️ Interactive symptom selection using icon-based cards
+
+🤖 AI-generated disease explanation (symptoms, causes, prevention)
+
+💬 Chat with AI Doctor for follow-up questions
+
+📄 Download consultation summary as PDF
+
+🎨 Modern, responsive Streamlit UI
+
+⚠️ Clear medical disclaimer for ethical use
+
+🛠️ Tech Stack & Libraries
+📊 Data Processing
+
+Pandas – data loading and preprocessing
+
+NumPy – numerical feature encoding
+
+📈 Visualization & UI
+
+Matplotlib
+
+Seaborn
+
+Streamlit – frontend & deployment
+
+🤖 Machine Learning
+
+Naive Bayes Classifier
+
+Joblib – model serialization
+
+🧠 AI & Utilities
+
+OpenAI API – AI doctor explanation & chat
+
+FPDF – PDF report generation
+
+📂 Project Structure
+├── Training.csv              # Dataset
+├── disease_model.pkl         # Trained ML model
+├── app.py                    # Streamlit application
+├── disease_model.ipynb       # Model training notebook
+├── requirements.txt
+└── README.md
+
+⚙️ How the System Works
+
+User selects symptoms via visual cards
+
+Symptoms are encoded into binary feature vector
+
+Naive Bayes model predicts the disease
+
+AI explains the predicted condition in simple language
+
+User can chat with AI doctor for guidance
+
+Consultation can be downloaded as a PDF
+
+🧠 Machine Learning Model
+
+Algorithm: Naive Bayes
+
+Why Naive Bayes?
+
+Works well with categorical & binary data
+
+Efficient for medical symptom datasets
+
+Fast, simple, and interpretable
